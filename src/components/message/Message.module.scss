@@ -1,0 +1,25 @@
+.container_left {
+    margin-right: 70%;
+    margin-left: 2%;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.message {
+    color: white;
+    width: fit-content;
+    background-color: #202C33;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    text-align: left;
+
+    margin: 0px 0px 16px 0px;
+}
+
+.container_right {
+    margin-right: 2%;
+    margin-left: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
