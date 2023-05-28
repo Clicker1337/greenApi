@@ -1,13 +1,13 @@
 import {SyntheticEvent} from 'react';
 
-import s from './ResponseSection.module.scss';
+import s from './Button.module.scss';
 
 interface IResponseSection {
     callback: (e: SyntheticEvent) => void;
     text: string;
 }
 
-function ResponseSection(props: IResponseSection) {
+function CustomButton(props: IResponseSection) {
     return (
         <button
             className={s.button}
@@ -18,4 +18,4 @@ function ResponseSection(props: IResponseSection) {
     );
 }
 
-export default ResponseSection;
+export default CustomButton;
